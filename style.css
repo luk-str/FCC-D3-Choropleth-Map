@@ -24,10 +24,15 @@ body {
 }
 
 .tooltip {
-  text-align: right;
+  text-align: center;
   position: absolute;
   border: 1px solid black;
   padding: 10px;
   background-color: rgb(255, 255, 255, 0.9);
   pointer-events: none;
+}
+
+.county:hover {
+  fill: rgba(255, 0, 100);
+
 }
